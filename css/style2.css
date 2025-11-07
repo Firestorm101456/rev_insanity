@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image:url("../images/survival.jpeg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    background-color: #353030;
+    padding: 10px 0;
+  }
+  
+  .nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-bar li a {
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+  }
+  
+  .nav-bar li a:hover {
+    color: #046d7a;
+  }
+  
+  main {
+    text-align: center;
+    color: rgb(249, 101, 128);
+    padding: 50px;
+  }
